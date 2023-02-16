@@ -167,6 +167,65 @@ body{
     left: 50%;
     margin-top: -8%;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* Services part End */
+.facts-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+.facts{
+    width: 40%;
+    padding-right: 2%;
+}
+.facts h2{
+    margin-bottom: 3%;
+}
+.facts p{
+    color: #727272;
+}
+/* Project area start */
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.project-wrapper{
+    margin: 2%;
+    text-align: center;
+    border: 1px solid orange;
+    padding: 2%;
+}
+/* Project area end */
+/* sponsors area start */
+.sponsor-area{
+    text-align: center;
+    margin: 0 22%;
+    padding: 2% 10%;
+}
+.sponsor-area h1{
+    margin-bottom: 2%;
+}
+.sponsor-area p{
+    color: #727272;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-img img{
+    width: 150px;
+    margin:2% 3%;
+}
+/* sponsors area end */
+footer{
+    background-color: #ecdcc4;
+}
+.footer{
+    text-align: center;
+    padding: 5%;
+}
